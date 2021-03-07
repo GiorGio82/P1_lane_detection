@@ -9,6 +9,7 @@ Full description of the pipeline is available in the wrietup document "P1_lane_d
 Finding Lane Lines on the Road
 
 
+1. Intro 
 My pipeline consisted of 7 steps.
 
 1. I use the inRange function to apply yellow and white masks to the input image
@@ -28,7 +29,6 @@ My pipeline consisted of 7 steps.
 
 The resulting pipeline works ok for both test videos “solidWhiteRight.mp4” and “solidYellowLeft.mp4”. The pipeline also works for the challenging video but the performance is not so good because of the presence of shadows and different pavement colors. All videos are available in the folder “test_videos_output” 
 
-Reflection
 2. Identify potential shortcomings with your current pipeline
 
 I decided to enumerate the shortcomings so that I can refer to them in the improvement section.
